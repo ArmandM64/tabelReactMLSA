@@ -1,57 +1,13 @@
-body{
-  margin:0;
-  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial,
-  sans-serif;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.Navbar-Component{
-  width:20vw;
-  background-color: #232931;
-  font-weight: 650;
-  height:100vh;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
-
-.Navbar{
-  padding:8vh 10px 0 12%;
-}
-
-.Top{
-  display:flex;
-  color:white;
-  flex-wrap: wrap;
-}
-
-.Logo{
- height:50px;
- background-color: #232931;
- margin-right:10px;
-}
-
-.MLSA{
-  font-weight:550;
-}
-
-p{
-  margin:0;
-}
-
-.DepartmentsList{
-  list-style:none;
-  padding: 0;
-  margin-top:15vh;
-  color:rgb(156, 156, 156);
-}
-
-.DepartmentsList li{
-  margin-bottom: 7px;
-  font-size:17px;
-}
-
-li, img, p:hover{
-  cursor: pointer;
-}
-
-li:first-child{
-  color:white;
-}
-
